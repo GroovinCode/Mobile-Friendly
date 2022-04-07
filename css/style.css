@@ -1,0 +1,63 @@
+body {
+    background-color: blue;
+    background-image: 
+      url(/Images/wave4.svg),
+      linear-gradient(lightblue 10%, blue 30%);
+    background-repeat: 
+      no-repeat,
+      no-repeat;
+    display: grid;
+    grid-template-columns: auto 4fr 1fr auto ;
+    grid-template-rows: 2fr 4fr 4fr 4fr 4fr 1fr;
+    min-height: 100vh;
+}
+
+header {
+    grid-column: 2;
+    grid-row: 1 / 2;
+    font-size: larger;
+    position: relative;
+    top: 0%;
+    left: 9%;
+}
+
+main {
+    grid-column: 1 / 5;
+    grid-row: 3 / 6;
+    background-color: white;
+    margin: -.5em;
+}
+
+h1 {
+    color: whitesmoke ;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    font-style: italic;
+    position: relative;
+    top: 0em;
+    left: 0em;
+}
+
+.content1 {
+    background-color: white;
+    position: relative;
+    top: 2em;
+    left: .5em;
+    text-align: left;
+}
+
+.content2 {
+    background-color: white;
+    position: relative;
+    top: 2em;
+    right: .5em;
+    text-align: right;
+}
+
+p {
+    color: black;
+}
+
